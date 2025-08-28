@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate, NavLink, Outlet } from "react-router-dom";
 import ListaCancionesPreferidas from "../components/ListaCancionesPreferidas/ListaCancionesPreferidas";
 import Analitica from "../components/analitica/Analitica";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 function Layout() {
   return (
@@ -16,6 +17,16 @@ function Layout() {
             })}
           >
             Home
+          </NavLink>
+          <NavLink
+            to="/ContactForm"
+            style={({ isActive }) => ({
+              textDecoration: "none",
+              color: isActive ? "#1d4ed8" : "#111827",
+              fontWeight: isActive ? 700 : 500,
+            })}
+          >
+            Form
           </NavLink>
           <NavLink
             to="/analytics"
@@ -52,6 +63,8 @@ export default function AppRouter() {
         {/* Rutas hijas */}
         <Route path="/home" element={<ListaCancionesPreferidas />} />
         <Route path="/analytics" element={<Analitica />} />
+        <Route path="/ContactForm" element={<ContactForm />} />
+
         {/* comodín: 404 */}
         <Route path="*" element={<NotFound />} />
       </Route>
