@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate, NavLink, Outlet } from "react-router-dom";
-import ListaCancionesPreferidas from "../components/listacancionesreferidas/ListaCancionesPreferidas";
+import ListaCancionesPreferidas from "../components/ListaCancionesPreferidas/ListaCancionesPreferidas";
 import Analitica from "../components/analitica/Analitica";
 import ContactForm from "../components/ContactForm/ContactForm";
 
