@@ -25,7 +25,7 @@ export default function ContactForm() {
       disabled: el.disabled || false,
       required: el.required || false,
     }));
-    console.log("🧩 Elementos del formulario:", all);
+    // console.log("🧩 Elementos del formulario:", all);
 
     // 2) Payload desde FormData (maneja múltiples valores con el mismo name)
     const fd = new FormData(form);
@@ -38,7 +38,7 @@ export default function ContactForm() {
         data[key] = value;
       }
     }
-    console.log("📦 Payload FormData:", data);
+    // console.log("📦 Payload FormData:", data);
 
     // Aquí harías submit a tu API
     // fetch("/api", { method: "POST", body: fd })

@@ -73,7 +73,8 @@
 }
 
 .input::placeholder {
-  color: #6b7280; /* Slate-500 */
+
+  color: #265ecc; /* Slate-500 */
   opacity: 1; /* Evita placeholder demasiado tenue */
 }
 
@@ -107,7 +108,7 @@
 /* GRID de tarjetas */
 .grid {
   list-style: none;
-  margin: 0;
+  margin: center;
   padding: 0;
   display: grid;
   gap: 1rem;

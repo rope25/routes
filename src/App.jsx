@@ -1,6 +1,7 @@
 import "./App.css";
 import ListaCancionesPreferidas from "./components/listacancionespreferidas/listacancionespreferidas";
 import Analitica from "./components/analitica/Analitica";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
 
@@ -14,5 +15,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
