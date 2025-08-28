@@ -18,9 +18,15 @@
   Box-Model. -> Clave
 
 */
+
+body{
+  background-color: beige;
+}
+
 .wrapper {
   max-width: 1100px;
   margin: 1rem auto;
+  margin-top:auto; 
   padding: .1em;
   background-color: rgb(182, 211, 51);
 }
@@ -30,13 +36,13 @@
   display: grid;
   gap: 0.5rem;
   margin-bottom: 1rem;
-  background-color: #f3f5f8;
+  background-color: #226bda;
 }
 .stats {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  color: #1f3729;
+  color: #e09027;
   font-size: 0.95rem;
 }
 
@@ -116,11 +122,13 @@
 }
 
 .card {
-  border: 1px solid #e5e7eb; /* Gray-200 */
+  border: 5px solid #3f76e4; /* Gray-200 */
   border-radius: 0.75rem;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  margin:auto;
+  margin-top: auto;
 }
 
 .poster {
@@ -132,6 +140,7 @@
 }
 
 .body {
+  background-color: #2563eb;
   padding: 0.75rem 0.9rem 1rem;
   display: grid;
   gap: 0.35rem;
@@ -184,7 +193,7 @@
 
 /* Código de ejemplo */
 .code {
-  background: #0b1220;
+  background: #cc316d;
   color: #e5e7eb;
   padding: 0.75rem;
   border-radius: 0.5rem;
