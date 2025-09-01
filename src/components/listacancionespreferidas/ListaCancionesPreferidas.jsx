@@ -34,11 +34,11 @@ export default function ListaCancionesPreferidas() {
           <li className={styles.card} key={m.id}>
             <h3>{m.titulo}</h3>
             <img src={m.poster} />
-            <h4>{m.album}</h4>
+            <h4 id="Artitsta">{m.album}</h4>
             <hr />
-            <h4>{m.duracion}</h4>
+            <h4 id="duracion" >{m.duracion}</h4>
             <hr />
-            <h4>{m.rating}</h4>
+            <h4 id="calificacion">{m.rating}</h4>
             <hr />
           </li>
         ))}

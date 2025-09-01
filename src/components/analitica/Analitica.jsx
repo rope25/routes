@@ -59,13 +59,16 @@ const stats = useMemo(() => {
    return (
      <section className={styles.wrapper}>
        <header className={styles.header}>
-         <h2>Analitica canciones (JS Array methods)</h2>
+         <h2>Analitica canciones</h2>
          <div className={styles.stats}>
            <span>Total: <strong>{stats.count}</strong></span>
            <span>Promedio ★ <strong>{stats.avgRating.toFixed(2)}</strong></span>
        
            {stats.best && <span>Top: <strong>{stats.best.title} ({stats.best.rating})</strong></span>}
          </div>
+
+         <div></div>
+         
        </header>
 
     </section>
