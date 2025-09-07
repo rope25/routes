@@ -1,0 +1,17 @@
+.error404 {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.error404-image {
+  max-width: 100%;
+  height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: auto;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
